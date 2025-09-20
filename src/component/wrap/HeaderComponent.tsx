@@ -48,8 +48,7 @@ export default function HeaderComponent(){
         })  // 결과 가져오기 상태변수에 저장한기
         .catch((err)=>{
             console.log('fetch 오류!')
-        }); // 오류발생시
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        });
     },[])
 
 
@@ -63,11 +62,8 @@ export default function HeaderComponent(){
 
     // 2. 타이머
     useEffect(()=>{
-        let count = 0;
         const id = setInterval(()=>{
             setCnt(cnt=>cnt+1);
-            count++;
-            // console.log( '슬라이드 실행중' , count)            
         }, 6000);
         return ()=> clearInterval(id);
     }, []);
