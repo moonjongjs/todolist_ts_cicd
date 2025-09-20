@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]   # master 브랜치에 push 될 때 실행
+  pull_request:
+    branches: [ "master" ]   # master 브랜치로 PR 올릴 때 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest   # GitHub 제공 Ubuntu 환경에서 실행
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18   # 프로젝트 Node 버전에 맞게 지정
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
