@@ -1,7 +1,8 @@
 # TO DO LIST (할일) 개발 제작
 
-웹개발자 문선종 입니다.
-이프로젝트는 아래와 같은 툴과 방식으로 제작 되었습니다.
+**풀스택 웹 개발자 문선종 입니다.**
+**이프로젝트는 아래와 같은 툴과 방식으로 제작 되었습니다.**
+
 ---
 
 React + TypeScript 기반의 **Todo List 웹 애플리케이션**으로,  
@@ -10,7 +11,8 @@ React + TypeScript 기반의 **Todo List 웹 애플리케이션**으로,
 
 본 프로젝트는 포트폴리오 목적으로 제작되었으며,  
 **프론트엔드 개발 → 지속적 통합(CI) → 자동 배포(CD)** 까지  
-엔드 투 엔드(End-to-End) 개발 과정을 구현하고자 했습니다.  
+엔드 투 엔드(End-to-End) 개발 과정을 구현하고자 했습니다. 
+
 ---
 
 ## 📜 License
@@ -22,15 +24,15 @@ React + TypeScript 기반의 **Todo List 웹 애플리케이션**으로,
 ---
 
 ## 🚀 Features
-- **React + TypeScript** 기반 프론트엔드 개발
-- **CI/CD with GitHub Actions** 자동 배포 파이프라인 구축
-- **Redux Toolkit Store**를 활용한 상태 관리
-- **Todo List 커스텀 개발** (CRUD 기능 직접 구현)
+- **React + TypeScript** - 리액트 + 타입스크립트 기반 프론트엔드 개발
+- **CI/CD with GitHub Actions** - 자동 배포 파이프라인 구축
+- **Redux Toolkit Store** - 리덕스 툴킷을 활용한 상태 관리
+- **Todo List 커스텀 개발** - CRUD 기능 구현
 - **LocalStorage persistence** – 새로고침 후에도 데이터 유지
-- **Custom Carousel & Pagination** 직접 제작
-- **캐러셀 슬라이드 기능 개발 구현**
-- **페이지네이션 UI/UX 커스텀**
-- **Responsive Web Design (RWD)** – Desktop, Tablet, Mobile 지원
+- **Custom Carousel & Pagination** – 커스텀 캐러셀 & 페이지네이션 개발 제작
+- **캐러셀 슬라이드 기능 개발 구현** – 커스텀 캐러셀 슬라이드 개발 제작
+- **페이지네이션 UI/UX 커스텀**  – 페이지네이션 UI/UX 개발 제작
+- **Responsive Web Design (RWD)** – 반응형 UI Desktop, Tablet, Mobile 지원
 
 ---
 
