@@ -1,29 +1,21 @@
 # TO DO LIST (할일) 개발 제작
 
-A modern **Todo List Web Application** built with **React + TypeScript**,  
-featuring state management with **Redux Toolkit**, custom UI components, and  
-automated deployment using **CI/CD with GitHub Actions**.  
+웹개발자 문선종 입니다.
+이프로젝트는 아래와 같은 툴과 방식으로 제작 되었습니다.
+---
 
 React + TypeScript 기반의 **Todo List 웹 애플리케이션**으로,  
 **Redux Toolkit**을 활용한 상태 관리, **커스텀 UI 컴포넌트**,  
 그리고 **GitHub Actions CI/CD 자동 배포** 기능을 구현했습니다.  
 
-This project was developed as part of my portfolio to demonstrate  
-end-to-end frontend development workflow: from implementation  
-to continuous integration and automated deployment.  
-
 본 프로젝트는 포트폴리오 목적으로 제작되었으며,  
 **프론트엔드 개발 → 지속적 통합(CI) → 자동 배포(CD)** 까지  
-엔드 투 엔드(End-to-End) 개발 과정을 경험하고자 했습니다.  
-
+엔드 투 엔드(End-to-End) 개발 과정을 구현하고자 했습니다.  
 ---
 
 ## 📜 License
-This project is licensed under the **CC BY-NC 4.0 License** –  
-see the [LICENSE](./LICENSE) file for details.  
-
 본 프로젝트는 **CC BY-NC 4.0 (저작자표시-비영리 4.0 국제 라이선스)**를 따릅니다.  
-즉, 출처를 표시하면 개인적/교육적 사용은 가능하지만,  
+즉, 출처를 표시하면 개인적/교육적 사용은 가능하지만,
 **상업적 사용은 금지**됩니다.  
 자세한 내용은 [LICENSE](./LICENSE) 파일을 참고하세요.  
 
